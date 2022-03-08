@@ -1,0 +1,19 @@
+.container {
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+  margin: 15px 10px;
+  padding: 20px 40px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.644);
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.maamourFront {
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  /* clip-path: polygon(0% 0%, 0% 100%, 100% 70%, 100% 0%); */
+  opacity: 0.9;
+  margin-bottom: 15px;
+}

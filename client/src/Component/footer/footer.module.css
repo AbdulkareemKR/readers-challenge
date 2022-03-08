@@ -1,0 +1,94 @@
+.container {
+    background-color: #0269a4;
+    height: 40vh;
+    width: 100vw;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    position: relative;
+}
+
+.infoContainer {
+    direction: rtl;
+    text-align: center;
+    size: 100%;
+    background-color: #0269a4;
+}
+
+.contact,
+.location {
+    font-size: calc(13px + 2vw);
+    display: inline;
+    margin: auto;
+}
+
+.logoContainer {
+    margin-top: 10px;
+}
+
+.BlackLogo {
+    width: 20vw;
+    height: 20vw;
+    max-width: 140px;
+    max-height: 140px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+.title {
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: calc(5% + 21vmin);
+}
+
+
+/* .title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150%;
+  border-bottom: solid 1px white;
+} */
+
+.titleCustom {
+    color: #fbbc04;
+}
+
+.subTitle {
+    color: #fbbc04;
+    color: white;
+    margin-top: calc(15px + 25vmin);
+    display: inline-block;
+}
+
+h5 {
+    font-family: inherit;
+    font-size: calc(10px + 1.5vw);
+    padding-bottom: 10px;
+    /* border-bottom: solid 1px white; */
+}
+
+.icon {
+    color: #fbbc04;
+    margin: 0 10px;
+}
+
+.icon:hover {
+    color: #d49747;
+    filter: brightness(0.85);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        height: 200px;
+    }
+}

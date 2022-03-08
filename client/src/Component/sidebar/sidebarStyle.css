@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+    position: fixed;
+    width: 2.5vw;
+    min-width: 25px;
+    height: 2.5vw;
+    min-height: 25px;
+    right: 19px;
+    top: 21px;
+}
+
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+
+/* Color/shape of burger icon bars on hover*/
+
+.bm-burger-bars-hover {
+    background: #a90000;
+}
+
+
+/* Position and sizing of clickable cross button */
+
+
+/* Color/shape of close button cross */
+
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+
+.bm-menu-wrap {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    /* max-width: 100px !important; */
+    width: 80px !important;
+    z-index: 20 !important;
+    box-shadow: 0 10px 10px rgba(128, 128, 128, 0.527);
+    margin-left: 2px;
+}
+
+
+/* General sidebar styles */
+
+.bm-menu {
+    background: #f8f8f8;
+    padding: 0;
+    font-size: 1.15em;
+}
+
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+
+/* Wrapper for item list */
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+
+/* Individual item */
+
+.bm-item {
+    display: block;
+    position: absolute;
+    /* //if you want to center the sidebar list */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* top: 4%; */
+    padding-left: 5px;
+}
+
+
+/* Styling of overlay */
+
+.bm-overlay {
+    background: rgba(255, 255, 255, 0) !important;
+    display: none !important;
+}
+
+
+/* 
+.main-container {
+} */
+
+.menu-item {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+    margin-bottom: 25px;
+    direction: rtl;
+    font-weight: 700;
+    font-size: calc(8px + 0.5vw);
+    font-family: "Cairo", sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s;
+    border-bottom: solid 1px grey !important;
+}
+
+.menu-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    border-bottom: solid 3px rgb(172, 172, 172);
+    background-color: #0269a4;
+}
+
+.menu-item:focus {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+    color: #fbbc04;
+}
+
+.menu-item:first-child {
+    margin-top: 70px;
+    padding-top: 20px;
+}
+
+.menu-item:hover .fa {
+    size: 1px !important;
+    color: #fbbc04;
+}
+
+.menu-item:hover {
+    background-color: #0269a4 !important;
+    color: #fbbc04;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+
+.acitve {
+    background-color: #0269a4 !important;
+    color: #fbbc04;
+}
+
+.acitve .fa {
+    color: #fbbc04;
+}
+
+#page-wrap {
+    text-align: center;
+    justify-content: center;
+}
+
+.fa {
+    color: #fbbc04;
+    font-size: 1.8rem;
+    transition: all 0.4s;
+}
+
+.fa-users {
+    font-size: 2.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .bm-menu-wrap {
+        width: 60px !important;
+    }
+}
