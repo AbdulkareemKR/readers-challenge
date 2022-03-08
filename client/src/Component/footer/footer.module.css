@@ -1,5 +1,5 @@
 .container {
-    background-color: #0269a4;
+    background-color: #212E3E;
     height: 40vh;
     width: 100vw;
     font-family: "Cairo", sans-serif;
@@ -11,7 +11,7 @@
     direction: rtl;
     text-align: center;
     size: 100%;
-    background-color: #0269a4;
+    background-color: #212E3E;
 }
 
 .contact,
@@ -59,11 +59,13 @@
 } */
 
 .titleCustom {
-    color: #fbbc04;
+    background-image: linear-gradient(to bottom, #FEAF01, #FF8E00);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .subTitle {
-    color: #fbbc04;
     color: white;
     margin-top: calc(15px + 25vmin);
     display: inline-block;
@@ -77,7 +79,7 @@ h5 {
 }
 
 .icon {
-    color: #fbbc04;
+    color: #FF8E00;
     margin: 0 10px;
 }
 

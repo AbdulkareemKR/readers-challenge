@@ -129,7 +129,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     background-color: transparent;
     border-color: transparent;
     box-shadow: none !important;
-    color: #fbbc04;
+    color: #FF8E00;
 }
 
 .menu-item:first-child {
@@ -139,12 +139,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .menu-item:hover .fa {
     size: 1px !important;
-    color: #fbbc04;
+    color: #FF8E00;
 }
 
 .menu-item:hover {
     background-color: #0269a4 !important;
-    color: #fbbc04;
+    color: #FF8E00;
     background-color: transparent;
     border-color: transparent;
     box-shadow: none !important;
@@ -152,11 +152,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .acitve {
     background-color: #0269a4 !important;
-    color: #fbbc04;
+    color: #FF8E00;
 }
 
 .acitve .fa {
-    color: #fbbc04;
+    color: #FF8E00;
 }
 
 #page-wrap {
@@ -165,7 +165,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .fa {
-    color: #fbbc04;
+    color: #FF8E00;
     font-size: 1.8rem;
     transition: all 0.4s;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./header.module.css";
-import MaamourLogo from "../images/صيد القراءة.png";
+import MaamourLogo from "../images/readersChallenge.png";
 
 function Header() {
   return (
     <div>
       <header className={styles.header}>
         <h1 className={styles.title}>
-          صيد <span className={styles.titleCustom}>وقيد</span>
+          تحدي <span className={styles.titleCustom}>القراء</span>
         </h1>
         <a className={styles.titleLink} href="/">
           <img
