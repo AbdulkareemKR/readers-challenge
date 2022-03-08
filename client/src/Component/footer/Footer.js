@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./footer.module.css";
-import BlackLogo from "../images/readersChallenge.png";
+import BlackLogo from "../images/readerChallengeWhite.png";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { HiLocationMarker } from "react-icons/hi";
@@ -33,7 +33,7 @@ function Footer() {
               className={styles.BlackLogo}
             ></img>
             <h3 className={styles.title}>
-              jp <span className={styles.titleCustom}>وقيد</span>
+              تحدي <span className={styles.titleCustom}>القراء</span>
             </h3>
             <p className={styles.subTitle}>قيد صيودك بالحبال الواثقة</p>
           </Col>

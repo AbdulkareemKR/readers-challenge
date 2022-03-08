@@ -122,14 +122,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
     bottom: 0;
     right: 50%;
     border-bottom: solid 3px rgb(172, 172, 172);
-    background-color: #0269a4;
+    background-color: #212E3E;
 }
 
 .menu-item:focus {
     background-color: transparent;
     border-color: transparent;
     box-shadow: none !important;
-    color: #FF8E00;
+    color: #FF9C01;
 }
 
 .menu-item:first-child {
@@ -139,24 +139,24 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .menu-item:hover .fa {
     size: 1px !important;
-    color: #FF8E00;
+    color: #FF9C01;
 }
 
 .menu-item:hover {
-    background-color: #0269a4 !important;
-    color: #FF8E00;
+    background-color: #212E3E !important;
+    color: #FF9C01;
     background-color: transparent;
     border-color: transparent;
     box-shadow: none !important;
 }
 
 .acitve {
-    background-color: #0269a4 !important;
-    color: #FF8E00;
+    background-color: #212E3E !important;
+    color: #FF9C01;
 }
 
 .acitve .fa {
-    color: #FF8E00;
+    color: #FF9C01;
 }
 
 #page-wrap {
@@ -165,7 +165,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .fa {
-    color: #FF8E00;
+    color: #FF9C01;
     font-size: 1.8rem;
     transition: all 0.4s;
 }
