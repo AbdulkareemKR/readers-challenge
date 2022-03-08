@@ -18,20 +18,32 @@ function Programs() {
         triggerOnce // to present each element on itself while moving down
         direction="up"
       >
-        <form name="contact" method="post">
-          <p>
-            <label>Your Name: <input type="text" name="name"/></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email"/></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+<form 
+  method='POST' 
+  name='contactform' 
+  className='contactForm'>
+
+  <input 
+    type='hidden'
+    name='form-name'
+    value='contactForm' />
+
+  <input 
+    type='text' 
+    name='name' 
+    placeholder='Enter your name' />
+
+  <input 
+    type='email' 
+    name='email' 
+    placeholder='Enter your email' />
+
+  <textarea 
+    name='message' 
+    placeholder='Messaage'></textarea>
+
+  <button type='submit'>Submit</button>
+</form>
       </Fade>
     </div>
   );
