@@ -18,28 +18,23 @@ function Programs() {
         triggerOnce // to present each element on itself while moving down
         direction="up"
       >
-        <Form className={styles.pointsForm}>
+        <Form netlify className={styles.pointsForm}>
         <Form.Group  controlId="formBasicEmail">
     <Form.Label>الاسم</Form.Label>
-                            <Form.Control
-                          as="select"
-                          className={styles.input}
-                        >
-                          <option>عبدالكريم الرملاوي </option>
-                          <option>أحمد نايفة</option>
-                          <option>حسين التوبة</option>
-                        </Form.Control>
+<Form.Select aria-label="Default select example">
+  <option>اختر اسمك</option>
+  <option value="1">عبدالكريم</option>
+  <option value="2">محمد</option>
+  <option value="3">صالح</option>
+</Form.Select>
   </Form.Group>
 
   <Form.Group className="mb-3" controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
   <Button variant="primary" type="submit">
-    Submit
+    تسليم
           </Button>
           </Form>
       </Fade>
